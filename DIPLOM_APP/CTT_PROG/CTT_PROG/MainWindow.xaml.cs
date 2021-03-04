@@ -32,6 +32,7 @@ namespace CTT_PROG
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     /// 
+    //Тест работы гита. Должна появиться эта строчка в репе!
     [Serializable]
     public class Products : INotifyPropertyChanged
     {  
