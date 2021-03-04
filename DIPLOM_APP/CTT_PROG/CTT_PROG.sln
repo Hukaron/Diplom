@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTT_PROG", "CTT_PROG\CTT_PROG.csproj", "{096191B9-7155-4D07-819D-28C873087503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096191B9-7155-4D07-819D-28C873087503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096191B9-7155-4D07-819D-28C873087503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096191B9-7155-4D07-819D-28C873087503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096191B9-7155-4D07-819D-28C873087503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3485EA3E-8FCE-4F62-B4DD-ED29C45B64A1}
+	EndGlobalSection
+EndGlobal
