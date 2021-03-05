@@ -98,7 +98,7 @@ namespace CTT_PROG
        private Word.Paragraphs wordparagraphs;
         [NonSerialized]
        private Word.Paragraph wordparagraph;
-
+        //Подробнее изучить работу с Word. Сделать форматирование текста.
         public void SaveInWord(string fileName, ObservableCollection<Products> products, DataGrid table)
         {
             try
