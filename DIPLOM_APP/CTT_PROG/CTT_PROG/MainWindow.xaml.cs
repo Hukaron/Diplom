@@ -169,42 +169,6 @@ namespace CTT_PROG
                 wordapp.Quit(ref saveChanges, ref originalFormat, ref routeDocument);
             }
         }
-        /* Не работает. Надо будет исправлять.
-        public void WordSave(string fileName, ObservableCollection<Products> products, DataGrid table)
-        {
-            int i;
-            wordapp = new Word.Application();
-            wordapp.Visible = false;
-            Object template = Type.Missing;
-            Object newTemplate = false;
-            Object documentType = Word.WdNewDocumentType.wdNewBlankDocument;
-            Object visible = true;
-            Object oMissing = System.Reflection.Missing.Value;
-            Object saveChanges = Word.WdSaveOptions.wdPromptToSaveChanges;
-            Object originalFormat = Word.WdOriginalFormat.wdWordDocument;
-            Object routeDocument = Type.Missing;
-            //Создание документа
-            worddocument = wordapp.Documents.Add(ref template, ref newTemplate, ref documentType, ref visible);
-            worddocument.Content.ParagraphFormat.FirstLineIndent = worddocument.Content.Application.CentimetersToPoints((float)1);
-            worddocument.Content.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphJustify;
-            wordparagraphs = worddocument.Paragraphs;
-            for (i = 0; i < 8; i++) worddocument.Paragraphs.Add(ref oMissing);
-            //Переходим к первому добавленному параграфу
-            wordparagraph = worddocument.Paragraphs[2];
-            Word.Range wordrange = wordparagraph.Range;
-            //Добавляем таблицу в начало второго параграфа
-            Object defaultTableBehavior = Word.WdDefaultTableBehavior.wdWord9TableBehavior;
-            Object autoFitBehavior = Word.WdAutoFitBehavior.wdAutoFitWindow;
-            //Создаем таблицу
-            Word.Table wordtable1 = 
-            worddocument.SaveAs(fileName);
-            wordapp.Quit(ref saveChanges, ref originalFormat, ref routeDocument);
-            MessageBox.Show("Сохранения завершено. Можете продолжить работу", "Сохранение успешно!", MessageBoxButton.OK, MessageBoxImage.Information);
-            wordapp = null;
-
-        }
-
-        */
 
     }
 
